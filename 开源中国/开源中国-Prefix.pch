@@ -1,0 +1,26 @@
+
+//
+//  开源中国-Prefix.pch
+//  开源中国
+//
+//  Created by qianfeng01 on 15-4-25.
+//  Copyright (c) 2015年 LYuan. All rights reserved.
+//
+
+#ifndef __________Prefix_pch
+#define __________Prefix_pch
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    //常量 头文件 定义
+    #import "Define.h"
+#endif
+
+#endif

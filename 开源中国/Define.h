@@ -36,9 +36,13 @@
 #define kDebugPrint() NSLog(@"%s,%d",__func__,__LINE__)
 #define kDebugSeparator() NSLog(@"─────────────────────────────────────────────────────────────────────────────────────────────────────")
 // 定义 宏 取消 导航响
+
+
 #define kDismissNavigationItem self.navigationItem.leftBarButtonItem = nil,self.navigationItem.rightBarButtonItem = nil
 
-#define K_BLUE_COLOR [UIColor colorWithRed:161/255.f green:202/255.f blue:52/255.f alpha:1.0]
+// 导航栏背景色
+#define K_BLUE_COLOR [UIColor colorWithRed:58/255.f green:172/255.f blue:28/255.f alpha:1.0]
+
 #define K_BLACK_COLOR [UIColor colorWithRed:105/255.f green:105/255.f blue:105/255.f alpha:1.0]
 #define K_GRAY_COLOR [UIColor colorWithRed:126/255.f green:126/255.f blue:126/255.f alpha:1.0]
 #define K_BG_WHITE_COLOR [UIColor colorWithRed:236/255.f green:236/255.f blue:236/255.f alpha:1.0]

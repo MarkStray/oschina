@@ -412,6 +412,7 @@
 		C5FC9F671B04EA1000E21ED7 /* TweetDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FC9F661B04EA1000E21ED7 /* TweetDetailModel.m */; };
 		C5FC9F6B1B04EFE200E21ED7 /* TweetDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FC9F691B04EFE200E21ED7 /* TweetDetailCell.m */; };
 		C5FC9F6C1B04EFE200E21ED7 /* TweetDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5FC9F6A1B04EFE200E21ED7 /* TweetDetailCell.xib */; };
+		CE8D9EFF1CB3B6B300CED52B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8D9EFE1CB3B6B300CED52B /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -502,7 +503,7 @@
 		C588E0C31B0731D3000B8E91 /* TweetHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetHeaderView.m; sourceTree = "<group>"; };
 		C588E0C51B0731E2000B8E91 /* TweetHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetHeaderView.xib; sourceTree = "<group>"; };
 		C58E7B281AF134CC0034AA8E /* picture_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture_s.png; sourceTree = "<group>"; };
-		C596D56F1AEFB4F500430552 /* glass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = glass.wav; sourceTree = "<group>"; };
+		C596D56F1AEFB4F500430552 /* glass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = glass.wav; path = ../glass.wav; sourceTree = "<group>"; };
 		C596D5711AEFD73900430552 /* TweetDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetDetailViewController.h; sourceTree = "<group>"; };
 		C596D5721AEFD73900430552 /* TweetDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetDetailViewController.m; sourceTree = "<group>"; };
 		C596D5731AEFD73900430552 /* TweetDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetDetailViewController.xib; sourceTree = "<group>"; };
@@ -941,6 +942,7 @@
 		C5FC9F681B04EFE200E21ED7 /* TweetDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetDetailCell.h; sourceTree = "<group>"; };
 		C5FC9F691B04EFE200E21ED7 /* TweetDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetDetailCell.m; sourceTree = "<group>"; };
 		C5FC9F6A1B04EFE200E21ED7 /* TweetDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetDetailCell.xib; sourceTree = "<group>"; };
+		CE8D9EFE1CB3B6B300CED52B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F55BCF36B54991F2709D6806 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1095,8 +1097,6 @@
 		C5B21F651AEB6DBB004E4D0C = {
 			isa = PBXGroup;
 			children = (
-				C596D56F1AEFB4F500430552 /* glass.wav */,
-				C5E0BC051AEBDBEB00ED78B7 /* libxml2.dylib */,
 				C5B21F701AEB6DBB004E4D0C /* 开源中国 */,
 				C5B21F841AEB6DBB004E4D0C /* 开源中国Tests */,
 				C5B21F6F1AEB6DBB004E4D0C /* Products */,
@@ -1137,6 +1137,8 @@
 		C5B21F711AEB6DBB004E4D0C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C596D56F1AEFB4F500430552 /* glass.wav */,
+				C5E0BC051AEBDBEB00ED78B7 /* libxml2.dylib */,
 				C5B21F721AEB6DBB004E4D0C /* Info.plist */,
 				C5B21F731AEB6DBB004E4D0C /* main.m */,
 				C5B2220A1AEB7CCE004E4D0C /* 开源中国-Prefix.pch */,
@@ -1226,6 +1228,7 @@
 		C5B21F951AEB7328004E4D0C /* Resource_os */ = {
 			isa = PBXGroup;
 			children = (
+				CE8D9EFE1CB3B6B300CED52B /* Default@2x.png */,
 				C56644271B0A4599002AA641 /* logo.png */,
 				C543C9B11B09DD90008069EC /* bubbleMine.png */,
 				C543C9B21B09DD90008069EC /* bubbleMine@2x.png */,
@@ -2276,6 +2279,7 @@
 				C5B221B61AEB7329004E4D0C /* tabbar-tweet@3x.png in Resources */,
 				C5B221001AEB7329004E4D0C /* 025@2x.png in Resources */,
 				C5B221511AEB7329004E4D0C /* ic_liked@2x.png in Resources */,
+				CE8D9EFF1CB3B6B300CED52B /* Default@2x.png in Resources */,
 				C5B221291AEB7329004E4D0C /* 066@2x.png in Resources */,
 				C5B221901AEB7329004E4D0C /* shooting@2x.png in Resources */,
 				C5B2219E1AEB7329004E4D0C /* tabbar-discover-selected@3x.png in Resources */,
@@ -2694,7 +2698,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Baoshan Lv (P2R428936U)";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2717,7 +2720,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_IDENTITY = "iPhone Developer: Baoshan Lv (P2R428936U)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Baoshan Lv (P2R428936U)";
 				HEADER_SEARCH_PATHS = (
